@@ -29,9 +29,9 @@ $(document).ready(function () {
             let responce = await fetch(url);
             let data = await responce.json();
             $("#city").html(data.name);
-            $("#temp").hmtl(data.main.temp);
+            $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
-            $("myweather").val("");
+            $("#myweather").val("");
             console.log(data)
         }
         myweather()
