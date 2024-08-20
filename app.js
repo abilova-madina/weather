@@ -14,7 +14,7 @@ $(document).ready(function () {
                 $("#temp").html(data.main.temp);
                 $("#feels").html(data.main.feels_like);
                 $("#myweather").val("");
-                console.log(data)
+                console.log(data);
             }
             myweather()
         }
@@ -32,7 +32,7 @@ $(document).ready(function () {
             $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
             $("#myweather").val("");
-            console.log(data)
+            console.log(data);
         }
         myweather()
     })
